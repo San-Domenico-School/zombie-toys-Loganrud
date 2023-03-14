@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
   - 
@@ -17,8 +17,8 @@ TagManager:
   - Shootable
   - Blocking
   - 
-  - 
-  - 
+  - Layer A
+  - Layer B
   - 
   - 
   - 
