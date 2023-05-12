@@ -2391,7 +2391,7 @@ MonoBehaviour:
     type: 3}
   allySpawnPoint: {fileID: 1846663601}
   allyImage: {fileID: 1995136984}
-  testAlly: 0
+  testAlly: 1
 --- !u!82 &1785761560
 AudioSource:
   m_ObjectHideFlags: 0
