@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8791955176324155507}
   m_LocalRotation: {x: -0, y: -0, z: 0.004363274, w: 0.9999905}
-  m_LocalPosition: {x: 0.142, y: 0.917, z: 1.074}
-  m_LocalScale: {x: 0.05772254, y: 0.08082218, z: 0.07914363}
+  m_LocalPosition: {x: 0.1420002, y: 0.91699994, z: 1.0739999}
+  m_LocalScale: {x: 0.057722546, y: 0.08082218, z: 0.07914363}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6331414816210218884}
-  m_Father: {fileID: 8791955177086120372}
-  m_RootOrder: 3
+  m_Father: {fileID: 8791955176914604183}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.5}
 --- !u!33 &8791955176324155470
 MeshFilter:
@@ -154,6 +154,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8791955177086120372}
+  - {fileID: 8791955176324155506}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -4.026, y: 0, z: 0}
@@ -270,11 +271,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 150
-  deathClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
   playerMovement: {fileID: 8791955176914604178}
   playerAttack: {fileID: 8791955176914604179}
   animator: {fileID: 8791955177093013476}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 8791955176914604271}
   damageImage: {fileID: 0}
   isInvulnerable: 0
 --- !u!82 &8791955176914604271
@@ -286,9 +287,10 @@ AudioSource:
   m_GameObject: {fileID: 8791955176914604180}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  OutputAudioMixerGroup: {fileID: -149116706277944671, guid: b57f76a77fa474494abafb047af7e65e,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 9922a12f34d0a084aab32de985459723, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -446,6 +448,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c2a47ee7966647158427d82ee09b797, type: 3}
+--- !u!114 &4808579572823537872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11415084, guid: 2c2a47ee7966647158427d82ee09b797,
+    type: 3}
+  m_PrefabInstance: {fileID: 4808579572833883900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c6f9c0e971b8e489125a9d3d9e2840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6331414816210336256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -521,8 +535,7 @@ PrefabInstance:
     - target: {fileID: 11443012, guid: fbe9f54dea272431cbf66340bf33406c, type: 3}
       propertyPath: lightningBolt
       value: 
-      objectReference: {fileID: 11415084, guid: 2c2a47ee7966647158427d82ee09b797,
-        type: 3}
+      objectReference: {fileID: 4808579572823537872}
     - target: {fileID: 19879306, guid: fbe9f54dea272431cbf66340bf33406c, type: 3}
       propertyPath: playOnAwake
       value: 0
