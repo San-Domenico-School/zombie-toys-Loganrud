@@ -34,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 1265365710475311395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.155, y: 1, z: -10.09}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5707300371771912244}
@@ -51,10 +51,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.73395497
+  m_Radius: 1.0878183
   m_Height: 2.7472253
   m_Direction: 0
-  m_Center: {x: 0.0041558743, y: 0.8467835, z: 0}
+  m_Center: {x: 0.0041558743, y: 1.0213283, z: 0}
 --- !u!54 &1265365710475311418
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ Rigidbody:
   m_GameObject: {fileID: 1265365710475311395}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 2
   m_AngularDrag: 2
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -89,8 +89,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2.55
-  m_BaseOffset: 0.28
+  m_Height: 2.34
+  m_BaseOffset: 0.16
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!135 &1265365710475311420
@@ -104,8 +104,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.484589
-  m_Center: {x: 0.10202968, y: 0.6945751, z: 0.5494245}
+  m_Radius: 1.7206736
+  m_Center: {x: 0.10202968, y: 0.69457483, z: 0.42402172}
 --- !u!95 &1265365710475311421
 Animator:
   serializedVersion: 4
@@ -182,7 +182,7 @@ MonoBehaviour:
   animator: {fileID: 1265365710475311421}
   audioSource: {fileID: 1265365710475311393}
   capsuleCollider: {fileID: 1265365710475311417}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
   isInvulnerable: 0
 --- !u!82 &1265365710475311393
 AudioSource:

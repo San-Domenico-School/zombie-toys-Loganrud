@@ -182,7 +182,7 @@ MonoBehaviour:
   animator: {fileID: 8314872603630902748}
   audioSource: {fileID: 8314872603630902727}
   capsuleCollider: {fileID: 8314872603630902746}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
   isInvulnerable: 0
 --- !u!82 &8314872603630902727
 AudioSource:
