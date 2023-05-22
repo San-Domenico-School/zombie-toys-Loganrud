@@ -115,8 +115,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3126859559754352198}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+  m_Controller: {fileID: 9100000, guid: fbfe07030abb34def9db32f46352611b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FrostDebuff: {fileID: 0}
   navMeshAgent: {fileID: 3126859559754352206}
-  animator: {fileID: 9500000, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+  animator: {fileID: 5911744764777867440}
   runAwayDistance: 10
 --- !u!114 &3126859559754352194
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
   hurtClip: {fileID: 8300000, guid: 1d4840678e677424b8921716c72397ea, type: 3}
   enemyAttack: {fileID: 3126859559754352194}
   enemyMovement: {fileID: 3126859559754352195}
-  animator: {fileID: 9500000, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+  animator: {fileID: 5911744764777867440}
   audioSource: {fileID: 3126859559754352192}
   capsuleCollider: {fileID: 3126859559754352200}
   hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
@@ -346,6 +346,12 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: fbfe07030abb34def9db32f46352611b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+--- !u!95 &5911744764777867440 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: c236aa7ad6dcabe47abc7d2cf903ae71,
+    type: 3}
+  m_PrefabInstance: {fileID: 5911744764785253840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5911744764785116954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400074, guid: c236aa7ad6dcabe47abc7d2cf903ae71,
