@@ -34,6 +34,7 @@ Transform:
   m_Children:
   - {fileID: 6331414816210218884}
   - {fileID: 596963554483726397}
+  - {fileID: 4716462494181601467}
   m_Father: {fileID: 8791955176914604183}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.5}
@@ -240,7 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightningAttack: {fileID: 6331414816203350340}
   frostAttack: {fileID: 596963554476818625}
-  stinkAttack: {fileID: 0}
+  stinkAttack: {fileID: 4716462494188413603}
   slimeAttack: {fileID: 0}
   prototypeAttack: {fileID: 8791955176324155469}
   countDown: {fileID: 0}
@@ -526,6 +527,85 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3507335781558670622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4716462494181446579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8791955176324155506}
+    m_Modifications:
+    - target: {fileID: 102102, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_Name
+      value: StinkAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464976, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+      propertyPath: stinkProjectile
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef6ee4114354e4cb5a083511b4d96dd1, type: 3}
+--- !u!4 &4716462494181601467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451336, guid: ef6ee4114354e4cb5a083511b4d96dd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4716462494181446579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4716462494188413603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11464976, guid: ef6ee4114354e4cb5a083511b4d96dd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4716462494181446579}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b7d21b94bd84341877a0eefece306f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4808579572833883900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -681,8 +761,7 @@ PrefabInstance:
     - target: {fileID: 11443012, guid: fbe9f54dea272431cbf66340bf33406c, type: 3}
       propertyPath: lightningHit
       value: 
-      objectReference: {fileID: 11424168, guid: 823a44ea929ef4cd1ae8ac3bbad5a5cb,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 11443012, guid: fbe9f54dea272431cbf66340bf33406c, type: 3}
       propertyPath: lightningBolt
       value: 
