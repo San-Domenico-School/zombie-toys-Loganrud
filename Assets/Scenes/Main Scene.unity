@@ -193,6 +193,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d313b5ea41508407292f12c19f50dc2b, type: 3}
+--- !u!114 &43325556 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8987792007960482416, guid: fcad93f76a81a4bed873d002de5d0e4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343426932}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f1b143b9e89f14e84dc3a5dc89edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &104898216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8791955176914604183, guid: 790adfc08881f46309b9db867a93fd64,
@@ -1602,6 +1614,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1096799943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8987792007152992383, guid: fcad93f76a81a4bed873d002de5d0e4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343426932}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e0060c2dc100f4e83a7d76907a5091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1214098867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1958,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1324585280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1343426932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8987792007568044309, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_Name
+      value: AttackEffects
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987792007568044310, guid: fcad93f76a81a4bed873d002de5d0e4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcad93f76a81a4bed873d002de5d0e4b, type: 3}
 --- !u!1 &1384856868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2076,18 @@ MonoBehaviour:
   spawnRate: 6
   maxEnemies: 3
   canNotSpawn: 0
+--- !u!114 &1478539538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8987792008931430877, guid: fcad93f76a81a4bed873d002de5d0e4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343426932}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9940aef610363834b8225faaef44fa02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1499334371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2711,6 +2816,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 183166003}
     m_Modifications:
+    - target: {fileID: 4384417104061930979, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: slimeProjectile
+      value: 
+      objectReference: {fileID: 1478539538}
+    - target: {fileID: 4384417104070389675, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384417104070389675, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716462494188413603, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: stinkProjectile
+      value: 
+      objectReference: {fileID: 1096799943}
+    - target: {fileID: 4716462494196795947, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716462494196795947, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331414816203350340, guid: 790adfc08881f46309b9db867a93fd64,
+        type: 3}
+      propertyPath: lightningHit
+      value: 
+      objectReference: {fileID: 43325556}
     - target: {fileID: 8791955176914604180, guid: 790adfc08881f46309b9db867a93fd64,
         type: 3}
       propertyPath: m_Name

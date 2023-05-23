@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074574381961746783}
   - component: {fileID: 1074574381961746782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FireTruckBody (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 1074574382291630360}
   - component: {fileID: 1074574382290664408}
   - component: {fileID: 1074574382297814744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Firetruck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074574382937270118}
   - component: {fileID: 1074574382937270117}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FireTruckBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
